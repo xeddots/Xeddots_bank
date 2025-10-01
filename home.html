@@ -47,7 +47,65 @@
 .navbar ul {
     list-style: none;
 }
+@media screen and (max-width:480px) {
+    .navbar ul{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .hero-section{
+        flex-direction: column;
+    }
+    .animated {
+        /* width: 50px; */
+        max-width: 400px;
+        /* margin-right: 400px; */
+    }
+    .text-section p {
+      /* font-size: 10px; */
+      text-align: none;
+    
+    }
+     .navbar svg {
+        margin-left: 90px;
+        /* margin-left: 400px; */
+        /* width: 100px; */
+    }
+}
+@media (min-width:481px) and (max-width:1024px) {
+    .navbar ul{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .navbar svg {
+        margin-left: 400px;
+        /* width: 100px; */
+    }
+        .animated {
+        /* width: 50px; */
+        max-width: 700px;
+        /* margin-right: 400px; */
+    }
+    .hero-section{
+        flex-direction: column;
+        /* padding: 50px 400px; */
+    }
+     .text-section{
+        /* padding: 50px 600px; */
+        width: 600px;
+     }
+}
 
+
+@media (min-width:1025px) and (max-width:1500px) {
+    .navbar svg {
+        display: none;
+    }
+    
+}
 .navbar ul li {
     display: inline-block;
     margin-left: 50px;
@@ -150,6 +208,9 @@
             <li><a href="">FAQs</a></li>
         </ul>
         <a href="./index.html" class="nav-btn"><button>Begin With Xeddots</button></a>
+        <svg class="list" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+       </svg>
     </nav>
     <header class="hero-section">
         <div class="image-section">
